@@ -46,4 +46,4 @@ if st.button("초안 만들기", type="primary", disabled=not files):
             st.stop()
     st.subheader("초안")
     st.markdown(draft)
-    st.download_button("마크다운으로 다운로드", draft, file_name="팀-주간보고-초안.md")
+    st.download_button("마크다운으로 다운로드", draft, file_name="팀-주간보고-초안.md", on_click="ignore")
